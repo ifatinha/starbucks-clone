@@ -1,0 +1,87 @@
+header {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    padding: 1%;
+
+    @media screen and(max-width: 1000px) {
+
+        .menu-left nav,
+        .menu-right {
+            display: none;
+        }
+
+        .menu-bug {
+            display: block;
+        }
+    }
+}
+
+.menu-left {
+    width: 50%;
+
+    img {
+        margin: 0 2%;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    nav a {
+        color: $black;
+        font-size: 0.8em;
+        font-weight: bolder;
+        letter-spacing: 0.1em;
+        margin: 0 1%;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $green;
+        }
+    }
+}
+
+.menu-right {
+    width: 40%;
+
+    img {
+        width: 20%;
+    }
+
+    a {
+        color: $black;
+        font-size: 0.9em;
+        font-weight: bolder;
+
+        i {
+            font-size: 1.5em;
+        }
+    }
+
+    .buttons {
+        width: 40%;
+
+        a {
+            @extend %btn-menu;
+        }
+
+        a:first-child {
+            border: 1px solid $black;
+        }
+
+        a:last-child {
+            background-color: $black;
+            color: $white;
+        }
+    }
+}
+
+.menu-bug {
+    cursor: pointer;
+    display: none;
+
+    .line1,
+    .line2,
+    .line3 {
+        @extend %line-menu-bug;
+    }
+}
