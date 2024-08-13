@@ -33,7 +33,8 @@ starbucks-clone/
 │ ├── main.css.map
 │ └── main.min.css
 ├── js/
-│ └── burger-menu.js
+│ └── menu.js
+│ └── main.js
 ├── scss/
 │ ├── config/
 │ │ ├── _variables.scss
