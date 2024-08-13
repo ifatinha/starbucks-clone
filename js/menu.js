@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+const initializeMenu = () => {
     const buttonBugger = document.querySelector("#menu-bugger");
     const buttonModalClose = document.querySelector("#modal-close");
     const modalMenu = document.querySelector("#modal-menu");
@@ -41,4 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     buttonBugger.addEventListener("touchstart", toggleMenu);
     buttonModalClose.addEventListener("click", toggleModal);
     buttonModalClose.addEventListener("touchstart", toggleModal);
-})
+};
+
+export default initializeMenu;
