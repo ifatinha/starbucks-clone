@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html,
 body,
 p,
@@ -203,6 +204,7 @@ section .text-section a, main .content-main a {
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding: 1rem 0.5rem;
   width: 100%;
 }
 
@@ -210,7 +212,6 @@ section .text-section a, main .content-main a {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0.5rem;
 }
 
 .modal-close {
@@ -223,12 +224,42 @@ section .text-section a, main .content-main a {
   min-height: 50px;
 }
 .modal-close img {
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
 }
 
 .modal-navbar {
   flex: 1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.modal-navbar_list li {
+  width: 100%;
+}
+.modal-navbar_list li a {
+  color: #017143;
+  display: inline-block;
+  font-family: "Caladea", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 10px;
+  padding: 12px 0;
+  width: 100%;
+}
+
+.navbar-actions {
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 40px;
+}
+.navbar-actions-link {
+  color: #8c8c8c;
+  letter-spacing: 0.32px;
 }
 
 .btn-green {
@@ -239,7 +270,8 @@ section .text-section a, main .content-main a {
   font-size: 0.875rem;
   line-height: 20px;
   padding: 10px 40px;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .header {
