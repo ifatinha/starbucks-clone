@@ -137,86 +137,6 @@ section .text-section a, main .content-main a {
   margin: 0 2px;
 }
 
-.header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-  padding: 1%;
-}
-
-.navbar {
-  align-items: center;
-  display: flex;
-  justify-content: start;
-  flex: 1;
-  gap: 1rem;
-}
-.navbar .navbar-list {
-  align-items: start;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-@media screen and (max-width: 998px) {
-  .navbar .navbar-list {
-    display: none;
-  }
-}
-.navbar .navbar-list .navbar-link {
-  color: #000000;
-  display: inline-block;
-  font-size: 0.8em;
-  font-weight: bolder;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  transition: 0.3s ease-in-out;
-}
-.navbar .navbar-list .navbar-link:hover {
-  color: #017143;
-}
-
-.header-right {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  gap: 1rem;
-}
-@media screen and (max-width: 998px) {
-  .header-right {
-    display: none;
-  }
-}
-.header-right .brand-logo {
-  max-width: 150px;
-}
-.header-right .store-locator {
-  color: #000000;
-  font-size: 0.9em;
-  font-weight: bolder;
-  flex: 1;
-  text-align: center;
-}
-.header-right .store-locator i {
-  font-size: 1.5em;
-}
-.header-right .auth-buttons {
-  flex: 1;
-  text-align: right;
-}
-.header-right .auth-buttons a {
-  display: inline-block;
-}
-.header-right .auth-buttons .login-btn {
-  border: 1px solid #000000;
-  color: #000000;
-}
-.header-right .auth-buttons .signup-btn {
-  background-color: #000000;
-  color: #ffffff;
-}
-
 .menu-bugger {
   background: transparent;
   border: none;
@@ -309,6 +229,97 @@ section .text-section a, main .content-main a {
 
 .modal-navbar {
   flex: 1;
+}
+
+.btn-green {
+  background: #017143;
+  border-radius: 200px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 20px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 1%;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  flex: 1;
+  gap: 1rem;
+}
+.navbar .navbar-list {
+  align-items: start;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media screen and (max-width: 998px) {
+  .navbar .navbar-list {
+    display: none;
+  }
+}
+.navbar .navbar-list .navbar-link {
+  color: #000000;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.navbar .navbar-list .navbar-link:hover {
+  color: #017143;
+}
+
+.header-right {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 1rem;
+}
+@media screen and (max-width: 998px) {
+  .header-right {
+    display: none;
+  }
+}
+.header-right .brand-logo {
+  max-width: 150px;
+}
+.header-right .store-locator {
+  color: #000000;
+  font-size: 0.9em;
+  font-weight: bolder;
+  flex: 1;
+  text-align: center;
+}
+.header-right .store-locator i {
+  font-size: 1.5em;
+}
+.header-right .auth-buttons {
+  flex: 1;
+  text-align: right;
+}
+.header-right .auth-buttons a {
+  display: inline-block;
+}
+.header-right .auth-buttons .login-btn {
+  border: 1px solid #000000;
+  color: #000000;
+}
+.header-right .auth-buttons .signup-btn {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 main {

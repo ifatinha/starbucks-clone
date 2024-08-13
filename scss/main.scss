@@ -3,9 +3,10 @@
 @import "./config/variables";
 @import "./config/mixins";
 @import "./config/global";
-@import "./pages/header";
 @import "./util/burger-menu.scss";
 @import "./util/menu-modal.scss";
+@import "./util/buttons.scss";
+@import "./pages/header";
 @import "./pages/main";
 @import "./pages/section";
 @import "./pages/footer";
