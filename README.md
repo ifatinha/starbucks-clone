@@ -24,6 +24,7 @@ Este projeto é uma recriação do site da Starbucks, focando em design responsi
 
 ## Estrutura do Projeto
 
+```
 starbucks-clone/
 │
 ├── index.html
@@ -51,7 +52,7 @@ starbucks-clone/
 │ └── main.scss
 └── assets/
 └── images/
-
+```
 
 - **index.html**: Arquivo principal da página.
 - **css/main.min.css**: Arquivo CSS compilado a partir do SCSS.
