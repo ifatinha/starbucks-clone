@@ -39,16 +39,17 @@
             </div>
         </div>
 
-        <button class="menu-bugger" type="button" id="menu-bugger">
+        <button class="menu-bugger" type="button" id="menu-bugger" aria-controls="modal-menu" aria-label="Abrir menu"
+            aria-expanded="false" aria-haspopup="true">
             <span class="visually-hidden">Menu</span>
             <i class="menu-bugger__bars" aria-hidden="true"></i>
         </button>
 
-        <div class="modal-overlay" aria-hidden="True">
+        <div class="modal-overlay" aria-hidden="True" id="modal-menu">
             <div class="modal-content">
                 <div class="modal-header">
                     <img src="assets/starbucks.png" alt="Logo Starbucks">
-                    <button class="modal-close" aria-label="Close Menu">
+                    <button class="modal-close" aria-label="Close Menu" id="modal-close">
                         <span class="visually-hidden">Fechar Menu</span>
                         <img src="assets/marca-cruzada.png" alt="Close Menu">
                     </button>
