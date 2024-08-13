@@ -1,14 +1,14 @@
-section {
+.section {
     @include display-flex(center, space-around);
 
     img {
-        width: 50%;
+        object-fit: contain;
+        width     : 50%;
     }
 
     &:nth-child(2n + 2) {
         flex-direction: row-reverse;
     }
-
 
     .text-section {
         width  : 50%;
