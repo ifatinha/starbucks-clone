@@ -57,7 +57,7 @@ starbucks-clone/
 
 - **index.html**: Arquivo principal da página.
 - **css/main.min.css**: Arquivo CSS compilado a partir do SCSS.
-- **js/scripts.js**: Arquivo JavaScript para funcionalidades dinâmicas.
+- **js/scripts.js**: Arquivo central JavaScript com os arquivos JS.
 - **scss/**: Diretório contendo arquivos SCSS.
 - **assets/images/**: Diretório para armazenar imagens usadas no projeto.
 
@@ -94,7 +94,7 @@ starbucks-clone/
 
 - **Homepage**: Visualize a página inicial que apresenta a marca e promoções.
 - **Menu**: Navegue pelo menu de produtos da Starbucks.
-- **Interatividade**: Experimente as funcionalidades dinâmicas implementadas com JavaScript, como sliders e efeitos de hover.
+- **Interatividade**: Experimente as funcionalidades dinâmicas implementadas com JavaScript.
 
 ## Contribuição
 
